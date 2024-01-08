@@ -13,10 +13,9 @@ func main() {
 	fmt.Println(insertSort(array))
 }
 
-/*
-*
-插入排序
-*/
+/**
+ * 插入排序
+ */
 func insertSort(array []int) []int {
 	//伪代码
 	//1 for j = 2 to A.length
